@@ -4,10 +4,6 @@ import Logo from "../img/image.png";
 
 export const Navbar = () => {
   let history = useHistory();
-
-
-
-
   return (
     <div>
       <Link to="/">Home</Link>
@@ -16,7 +12,7 @@ export const Navbar = () => {
       <Link
         to={{
           pathname: "/product",
-          state: { namaSaya: "bagas"  , umurSaya : "80"},
+          state: { namaSaya: "bagas", umurSaya: "80" },
         }}
       >
         tesssssfff
@@ -25,7 +21,7 @@ export const Navbar = () => {
       <NavLink
         to={{
           pathname: "/product",
-          state: { namaSaya: "bagas"  , umurSaya : "80"},
+          state: { namaSaya: "bagas", umurSaya: "80" },
         }}
       >
         tesssssfff
@@ -71,13 +67,13 @@ export const Navbar = () => {
       />
 
       <img
-     
         onClick={() => {
           history.push("/cart");
         }}
         alt=""
         src={Logo}
       />
+      <h1>tesss</h1>
     </div>
   );
 };

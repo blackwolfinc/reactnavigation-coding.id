@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh ;
+    width: 100vw;
+}
+.satu {
+    padding: 5rem;
+    background: red;
+    height: 5rem;
+}
+
+.dua {
+    padding: 5rem;
+    background-color: blue;
+    height: 5rem;
+}
+
+.tiga {
+    padding: 5rem;
+    background-color: green;
+    height: 5rem;
+}

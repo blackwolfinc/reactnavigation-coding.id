@@ -1,9 +1,16 @@
 import { Routers } from "./Router";
-import "../src/assets/css/index.css"
 
+import "../src/assets/css/index.css";
+import { StorageContext } from "./Context/StorageContext";
 
 function App() {
-  return <Routers />;
+  // membuat bank data
+
+  return (
+    <StorageContext>
+      <Routers />
+    </StorageContext>
+  );
 }
 
 export default App;

@@ -10,7 +10,7 @@ export const TestAxios = () => {
   const getDataPokemon = () => {
     var config = {
       method: "get",
-      url: "https://pokeapi.co/api/v2/pokemon",
+      url: process.env.REACT_APP_API_GATEWAY,
       headers: {},
     };
 

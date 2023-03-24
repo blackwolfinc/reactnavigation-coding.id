@@ -1,13 +1,15 @@
-import React from 'react'
-import "../assets/css/Flex.css"
+import React, { useContext, useState } from 'react'
+import { useGetData } from '../Context/StorageContext'
 
 
 export const Flex = () => {
+  const datavalue = useGetData()
+  console.log(datavalue , "theme")
   return (
-    <div className='container'>
-        <div className='satu'>1</div>
-        <div className='dua'>2</div>
-        <div className='tiga'>3</div>
-    </div>
-  )
+    <div>
+    tes
+
+
+    </div>)
 }
+

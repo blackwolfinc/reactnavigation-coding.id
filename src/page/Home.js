@@ -5,7 +5,8 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
-      Home res
+      {process.env.REACT_APP_TITLE}
+
     </div>
   );
 };
